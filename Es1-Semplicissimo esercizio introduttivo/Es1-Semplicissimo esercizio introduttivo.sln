@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Es1-Semplicissimo esercizio introduttivo", "Es1-Semplicissimo esercizio introduttivo\Es1-Semplicissimo esercizio introduttivo.csproj", "{05043A6F-4265-4EEE-AE43-D939E1F4780E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05043A6F-4265-4EEE-AE43-D939E1F4780E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05043A6F-4265-4EEE-AE43-D939E1F4780E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05043A6F-4265-4EEE-AE43-D939E1F4780E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05043A6F-4265-4EEE-AE43-D939E1F4780E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F35215E-7ED8-4453-8550-2E3756C9D626}
+	EndGlobalSection
+EndGlobal
