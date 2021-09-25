@@ -1,6 +1,6 @@
 ﻿INSERT INTO Attore VALUES
 ('Paolo',12,'IT'),
-('Samulele',31,'IT'),
+('Samuele',31,'IT'),
 ('Luca',8,'IT')
 
 INSERT INTO Film VALUES
@@ -10,7 +10,7 @@ INSERT INTO Recita VALUES
 (1,1)
 
 INSERT INTO Proiezione VALUES
-(1,1,'20001220',1000)
+(1,1,'20041225',1000)
 
 INSERT INTO Sala VALUES
 (1000,'Vittoria','Stura')

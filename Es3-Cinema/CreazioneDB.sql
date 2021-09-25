@@ -29,11 +29,11 @@ CREATE TABLE Recita
 CREATE TABLE Proiezione
 (
 	CodProiezione INT IDENTITY PRIMARY KEY,
-	CodAttore INT NOT NULL,
+	CodSala INT NOT NULL,
 	CodFilm INT NOT NULL,
 	DataProiezione DATETIME NULL, 
 	Incasso DECIMAL(12,2),
-	CONSTRAINT [FK_Proiezione_ToTable] FOREIGN KEY ([CodAttore]) REFERENCES [Attore]([CodAttore]),
+	CONSTRAINT [FK_Proiezione_ToTable] FOREIGN KEY ([CodSala]) REFERENCES [Sala]([CodSala]),
 	CONSTRAINT [FK_Proiezione_ToTable_1] FOREIGN KEY ([CodFilm]) REFERENCES [Film]([CodFilm]),
 )
 
