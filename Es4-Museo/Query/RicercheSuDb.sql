@@ -12,7 +12,7 @@ FROM Museo m
 WHERE m.Citta = 'Londra'
 AND NOT EXISTS(SELECT * FROM Opera o 
 			   WHERE o.NomeA='Tiziano' 
-			   AND o.NomeM = m.NomeM); --sempre legare le due query
+			   AND o.NomeM = m.NomeM); 
 
 /*	Il nome dei musei di Londra che conservano solo opere di Tiziano*/
 SELECT m.NomeM
